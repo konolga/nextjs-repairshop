@@ -6,8 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
-  },
+    "lint": "next lint",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "tsx ./src/db/migrate.ts"
+    },
   "dependencies": {
     "@kinde-oss/kinde-auth-nextjs": "^2.8.6",
     "@neondatabase/serverless": "^1.0.1",
